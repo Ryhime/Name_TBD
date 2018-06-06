@@ -1,1 +1,1 @@
-return view_yport[0] + (view_hport[0] /2)
+return camera_get_view_y(camera_get_active())

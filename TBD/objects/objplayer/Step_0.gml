@@ -14,3 +14,6 @@ if (cooldownshoot >= 10 and mouse_check_button(mb_left))
 	 script_execute(scrshoot)
 	 cooldownshoot = 0
 }
+//Find Where the Viewpoint is 
+script_execute(scrgetx)
+script_execute(scrgety)

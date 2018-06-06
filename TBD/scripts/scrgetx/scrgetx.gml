@@ -1,1 +1,1 @@
-return view_xport[0] + (view_wport[0] /2)
+return camera_get_view_x(camera_get_active())
