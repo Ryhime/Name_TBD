@@ -1,0 +1,1 @@
+instance_create_layer(objplayer.x,objplayer.y,layer,objbullet)
