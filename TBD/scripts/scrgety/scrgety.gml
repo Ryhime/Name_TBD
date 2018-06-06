@@ -1,0 +1,1 @@
+return view_yport[0] + (view_hport[0] /2)

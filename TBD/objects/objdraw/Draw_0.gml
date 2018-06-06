@@ -7,7 +7,7 @@ if keyboard_check_pressed(vk_space)
 }
 if inv = true
 {
-	inv1 = draw_sprite(sprinv,0,objplayer.x,objplayer.y)
+	inv1 = draw_sprite(sprinv,0,view_xport[0],view_yport[0] + 100)
 	if (ds_list_size(global.inv) = 10)inv2 = draw_text(objplayer.x + 230,objplayer.y + 270,ds_list_size(global.inv))
 	else if (ds_list_size(global.inv) < 10)inv2 = draw_text(objplayer.x + 240,objplayer.y + 270,ds_list_size(global.inv))
 
@@ -36,9 +36,10 @@ if inv = true
 		inv4 = noone
 		inv = false
 	}
-
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Test Viewpoint
+draw_text(scrgetx(),scrgety(),"Hello")
 
 
 
