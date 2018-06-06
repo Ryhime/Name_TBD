@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3e600e7e-4d40-46ff-b6d0-c096a9399eeb",
+            "Value": {
+                "id": "19f32e06-9eb3-4099-83e6-2844d865accc",
+                "resourcePath": "sprites\\sprspacestationTL\\sprspacestationTL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3e9ba0b3-1e11-456a-a5fa-bb6288f0969f",
             "Value": {
                 "id": "7f0ffa0f-f7d8-4f0e-84dc-70fa34b21bb0",
@@ -172,6 +180,14 @@
                 "id": "5ce06035-9b2d-4b3d-828a-1dc46e1d1722",
                 "resourcePath": "views\\6f70e07f-2f9f-4b69-ac51-0b825775bfed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75988dba-6f29-4f75-8d3a-0db6826b5a15",
+            "Value": {
+                "id": "b89fe1bc-1be1-430c-a873-7340ef5d53fd",
+                "resourcePath": "tilesets\\tlspacestation\\tlspacestation.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "c8fc117c-e4dc-4d65-be57-a64f6c6ccd65",
                 "resourcePath": "objects\\objbullet\\objbullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff394746-820a-495d-9c49-d0d3228bde37",
+            "Value": {
+                "id": "2086f21a-e5d8-4680-aa5a-d6b64bda9fd8",
+                "resourcePath": "views\\ff394746-820a-495d-9c49-d0d3228bde37.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
