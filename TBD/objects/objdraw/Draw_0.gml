@@ -7,26 +7,25 @@ if keyboard_check_pressed(vk_space)
 }
 if inv = true
 {
-	inv1 = draw_sprite(sprinv,0,view_xport[0],view_yport[0] + 100)
-	if (ds_list_size(global.inv) = 10)inv2 = draw_text(objplayer.x + 230,objplayer.y + 270,ds_list_size(global.inv))
-	else if (ds_list_size(global.inv) < 10)inv2 = draw_text(objplayer.x + 240,objplayer.y + 270,ds_list_size(global.inv))
-
-	inv3 = draw_text(objplayer.x + 260,objplayer.y + 270,"/10")
-	inv4 = draw_text(objplayer.x + 20,objplayer.y + 270,"Inventory Space:")
+	inv1 = draw_sprite(sprinv,0,scrgetx(),scrgety())
+	if (ds_list_size(global.inv) = 10)inv2 = draw_text(scrgetx() + 550,scrgety() + 570,ds_list_size(global.inv))
+	else if (ds_list_size(global.inv) < 10)inv2 = draw_text(scrgetx() + 555,scrgety() + 570,ds_list_size(global.inv))
+	inv3 = draw_text(scrgetx() + 580,scrgety() + 570,"/10")
+	inv4 = draw_text(scrgetx() + 395,scrgety() + 570,"Inventory Space:")
 	//Draw Inventory
-	if (ds_list_size(global.inv) > 0)draw_text(objplayer.x - 280,objplayer.y - 280,ds_list_find_value(global.inv,0))
-	if (ds_list_size(global.inv) > 1)draw_text(objplayer.x - 280,objplayer.y - 230,ds_list_find_value(global.inv,1))
-	if (ds_list_size(global.inv) > 2)draw_text(objplayer.x - 280,objplayer.y - 180,ds_list_find_value(global.inv,2))
-	if (ds_list_size(global.inv) > 3)draw_text(objplayer.x - 280,objplayer.y - 130,ds_list_find_value(global.inv,3))
-	if (ds_list_size(global.inv) > 4)draw_text(objplayer.x - 280,objplayer.y - 80,ds_list_find_value(global.inv,4))
-	if (ds_list_size(global.inv) > 5)draw_text(objplayer.x - 280,objplayer.y - 30,ds_list_find_value(global.inv,5))
-	if (ds_list_size(global.inv) > 6)draw_text(objplayer.x - 280,objplayer.y + 20,ds_list_find_value(global.inv,6))
-	if (ds_list_size(global.inv) > 7)draw_text(objplayer.x - 280,objplayer.y + 70,ds_list_find_value(global.inv,7))
-	if (ds_list_size(global.inv) > 8)draw_text(objplayer.x - 280,objplayer.y + 120,ds_list_find_value(global.inv,8))
-	if (ds_list_size(global.inv) > 9)draw_text(objplayer.x - 280,objplayer.y + 170,ds_list_find_value(global.inv,9))
+	if (ds_list_size(global.inv) > 0)draw_text(scrgetx() + 40,scrgety() + 50,ds_list_find_value(global.inv,0))
+	if (ds_list_size(global.inv) > 1)draw_text(scrgetx() + 40,scrgety() + 100,ds_list_find_value(global.inv,1))
+	if (ds_list_size(global.inv) > 2)draw_text(scrgetx() + 40,scrgety() + 150,ds_list_find_value(global.inv,2))
+	if (ds_list_size(global.inv) > 3)draw_text(scrgetx() + 40,scrgety() + 200,ds_list_find_value(global.inv,3))
+	if (ds_list_size(global.inv) > 4)draw_text(scrgetx() + 40,scrgety() + 250,ds_list_find_value(global.inv,4))
+	if (ds_list_size(global.inv) > 5)draw_text(scrgetx() + 40,scrgety() + 300,ds_list_find_value(global.inv,5))
+	if (ds_list_size(global.inv) > 6)draw_text(scrgetx() + 40,scrgety() + 350,ds_list_find_value(global.inv,6))
+	if (ds_list_size(global.inv) > 7)draw_text(scrgetx() + 40,scrgety() + 400,ds_list_find_value(global.inv,7))
+	if (ds_list_size(global.inv) > 8)draw_text(scrgetx() + 40,scrgety() + 450,ds_list_find_value(global.inv,8))
+	if (ds_list_size(global.inv) > 9)draw_text(scrgetx() + 40,scrgety() + 500,ds_list_find_value(global.inv,9))
 	//Draw Money
-	draw_text(objplayer.x - 280,objplayer.y + 270,"$")
-	draw_text(objplayer.x - 260,objplayer.y + 270,global.money)
+	draw_text(scrgetx() + 25,scrgety() + 570,"$")
+	draw_text(scrgetx() + 40,scrgety() + 570,global.money)
 	//Close Inventory
 	if keyboard_check(vk_escape)
 	{
@@ -38,8 +37,7 @@ if inv = true
 	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Test Viewpoint
-draw_text(scrgetx(),scrgety(),"Test")
+
 
 
 
