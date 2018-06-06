@@ -1,7 +1,7 @@
 //Draw Health Bar
 draw_healthbar(objplayer.x - 40,objplayer.y + 32, objplayer.x - 35, objplayer.y - 32,global.playerhealth, c_black,c_red,c_green,2,true, true)
 //Draw the Entire Inventory Screen//////////////////////////////////////////////////////////////////////////
-if keyboard_check_pressed(vk_enter)
+if keyboard_check_pressed(vk_space)
 {
 	inv = true	
 }
@@ -39,3 +39,11 @@ if inv = true
 
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Test Text Box
+script_execute(scrtextbox,320,320,"Hello i am a kjdf kjfd jkdf jdkf dfkj dkjf ff ff ddd fdd fff'' // ")
+
+
+
+
+
+

@@ -26,7 +26,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_5FE32E97","id": "a4e9183c-d453-411f-9e83-30f43d6ff06a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5FE32E97","objId": "5bd8893c-2dad-4a01-af7f-1c8f097066bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 352},
+{"name": "inst_5FE32E97","id": "a4e9183c-d453-411f-9e83-30f43d6ff06a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5FE32E97","objId": "5bd8893c-2dad-4a01-af7f-1c8f097066bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 320,"y": 352},
 {"name": "inst_5B3EE51B","id": "56f55e22-a1e8-4364-bab5-cc2b54015fbc","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5B3EE51B","objId": "4d7469eb-0b07-4d75-92ca-be93da72d692","properties": null,"rotation": 0,"scaleX": 15,"scaleY": 13,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
@@ -89,12 +89,12 @@
     },
     "roomSettings":     {
         "id": "6fd00790-46b6-4ad1-865e-f3645ecfc82f",
-        "Height": 768,
+        "Height": 640,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 640
     },
     "mvc": "1.0",
     "views": [
