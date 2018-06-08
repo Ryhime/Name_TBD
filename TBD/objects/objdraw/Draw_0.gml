@@ -32,15 +32,24 @@ if inv = true
 	draw_text(scrgetx() + 400,scrgety() + 50,"Side Quests")
 	//Draw Indivdiual Quests
 	draw_set_font(fnt)
-	//Main Quest
-	draw_text(scrgetx() + 350,scrgety() + 100,"Side:")
-	draw_text_ext (scrgetx() + 400,scrgety() + 100,global.mainquest,25,200)
 	//Side Quest 1
-	draw_text(scrgetx() + 350,scrgety() + 200,"Side:")
-	draw_text_ext(scrgetx() + 400,scrgety() + 200, global.sidequest1,25,200)
+	if global.sidequest1 != noone
+	{
+		draw_text(scrgetx() + 350,scrgety() + 100,"Quest:")
+		draw_text_ext (scrgetx() + 400,scrgety() + 100,global.sidequest1,25,200)	
+	}
 	//Side Quest 2
-	draw_text(scrgetx() + 350,scrgety() + 300,"Side:")
-	draw_text_ext(scrgetx() + 400,scrgety() + 300, global.sidequest1,25,200)
+	if global.sidequest2 != noone
+	{
+		draw_text(scrgetx() + 350,scrgety() + 200,"Quest:")
+		draw_text_ext(scrgetx() + 400,scrgety() + 200, global.sidequest2,25,200)	
+	}
+	//Side Quest 3
+	if global.sidequest3 != noone
+	{
+		draw_text(scrgetx() + 350,scrgety() + 300,"Quest:")
+		draw_text_ext(scrgetx() + 400,scrgety() + 300, global.sidequest3,25,200)
+	}	
 	//Close Inventory
 	if keyboard_check(vk_escape)
 	{
