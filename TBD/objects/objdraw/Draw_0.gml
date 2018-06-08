@@ -29,11 +29,11 @@ if inv = true
 	draw_text(scrgetx() + 40,scrgety() + 570,global.money)
 	//Draw Quests
 	draw_set_font(fntbold)
-	draw_text(scrgetx() + 400,scrgety() + 50,"Quests")
+	draw_text(scrgetx() + 400,scrgety() + 50,"Side Quests")
 	//Draw Indivdiual Quests
 	draw_set_font(fnt)
 	//Main Quest
-	draw_text(scrgetx() + 350,scrgety() + 100,"Main:")
+	draw_text(scrgetx() + 350,scrgety() + 100,"Side:")
 	draw_text_ext (scrgetx() + 400,scrgety() + 100,global.mainquest,25,200)
 	//Side Quest 1
 	draw_text(scrgetx() + 350,scrgety() + 200,"Side:")
